@@ -94,21 +94,10 @@ Download the `.xls` file and place it in the `data/` folder before running the n
 
 ## Project structure
 credit-scoring-interpretable-ml/
-│
-├── notebooks/
-│   └── credit_scoring_shap.ipynb   ← main notebook (run this)
-├── data/                            ← place dataset here (gitignored)
-├── outputs/                         ← generated plots (committed)
-│   ├── class_distribution.png
-│   ├── eda_plots.png
-│   ├── model_performance.png
-│   ├── xgb_feature_importance.png
-│   ├── shap_global.png
-│   ├── shap_waterfall_customer.png
-│   └── shap_dependence.png
-├── requirements.txt
-├── .gitignore
-└── README.md
+credit_scoring_shap.ipynb [main notebook (run this)]
+data/  [place dataset here (gitignored)]
+outputs/[generated plots (committed)]
+
 
 ## Tech stack
 
