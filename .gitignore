@@ -1,0 +1,20 @@
+# Data files — never commit raw datasets to GitHub
+data/
+*.xls
+*.xlsx
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
